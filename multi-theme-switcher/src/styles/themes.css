@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&family=Pacifico&display=swap');
+
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+  --font: 'Inter', sans-serif;
+}
+
+/* Theme 1: Minimalist */
+[data-theme='theme1'] {
+  --bg: #f5f5f5;
+  --text: #111;
+  --font: 'Inter', sans-serif;
+}
+
+/* Theme 2: Dark Mode */
+[data-theme='theme2'] {
+  --bg: #1e1e1e;
+  --text: #f0f0f0;
+  --font: 'Merriweather', serif;
+}
+
+/* ✅ Theme 3: Colorful + Pacifico font */
+[data-theme='theme3'] {
+  --bg: #ffe4e6; /* light pink */
+  --text: #1e293b; /* slate */
+  --font: 'Pacifico', cursive;
+}
